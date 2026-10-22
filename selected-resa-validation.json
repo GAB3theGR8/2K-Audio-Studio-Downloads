@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "Standalone RESA export available from IFF, loose RESA and PA sources",
+    "Unedited export preserves exact native bytes",
+    "Current unapplied waveform is encoded into standalone export",
+    "Source and pending IFF replacements remain unchanged"
+  ]
+}

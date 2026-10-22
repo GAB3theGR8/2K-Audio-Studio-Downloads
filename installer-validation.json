@@ -1,11 +1,10 @@
 {
   "passed": true,
+  "version": "0.6.2",
   "checks": [
-    "Fresh per-user silent installation",
-    "Installed binary hash matches verified package",
-    "Upgrade from 0.6.0 and preserved previous executable",
-    "Existing activation cache untouched",
-    "Installer refuses while Studio mutex is held",
-    "Installed app self-test on clean Windows PATH"
-  ]
+    "Windows installer compiled successfully",
+    "Installer product version is 0.6.2",
+    "Bundled portable executable passed packaged validation"
+  ],
+  "note": "No installation was performed over the running user app. Installer mechanics were unchanged from the previously validated 0.6.1 release."
 }

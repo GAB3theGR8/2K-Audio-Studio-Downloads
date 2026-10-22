@@ -22,6 +22,7 @@
     "Multi-archive workspace save and restore",
     "Interactive original waveform and active transport routing",
     "Continuous scrolling editor with no effects tabs",
-    "Variable-size native RESA header and standalone resource support"
+    "Variable-size native RESA header and standalone resource support",
+    "Visible standalone RESA export from any selected source"
   ]
 }

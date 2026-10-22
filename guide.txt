@@ -1,4 +1,4 @@
-GAB3theGR8's 2K Audio Studio v0.6.1
+GAB3theGR8's 2K Audio Studio v0.6.2
 
 This version requires a license key supplied by Gabe.
 
@@ -7,7 +7,7 @@ This version requires a license key supplied by Gabe.
 3. The app checks authorization at startup and periodically while online. It can work offline for up to seven days after its last successful check, subject to license expiry.
 4. Help > Activation / license opens the activation screen again.
 
-Open your game folder or an IFF. The original waveform stays above the editable replacement. Import WAV/MP3/OGG, trim/repeat/copy/paste and use the Reverb / EQ / Effects panel. Sliders update the live dry/processed waveform overlay. Apply commits the effect as one undoable change. Fit original peaks matches the loaded original and checks native export against that reference.
+Open your game folder or an IFF. The original waveform stays above the editable replacement. Import WAV/MP3/OGG, trim/repeat/copy/paste and use the Reverb / EQ / Effects panel. Knobs update the live dry/processed waveform overlay. Apply commits the effect as one undoable change. Fit original peaks matches the loaded original and checks native export against that reference.
 
 For PA music, choose PA Sounds, select a team, edit/apply replacements and Export PA team. Only edited files are exported, with native 2K .wav content and original logical filenames inside Team Name/newaudio/eventmusic. Shared clips can affect multiple teams. For IFFs, Export IFF preserves untouched resources. Test new audio in game before installation.
 
@@ -21,7 +21,7 @@ Install the Setup.exe once. Open Studio from the Start menu afterward. Studio ch
 PA catalog update
 The library still contains 5,676 native recordings. This release adds 533 team associations; 449 more recordings now have team matches, for 2,721 associated recordings total. Team matches remain candidates, and shared sounds can affect multiple teams.
 
-Studio 0.6.1 workflow
+Studio 0.6.2 workflow
 Click either waveform to activate it. Click to place its cursor, drag to select, and press Space to play/pause that waveform. Click another position during playback to seek. The original stays a reference and supports copying; destructive edits target the lower replacement waveform. Zoom and selection time fields follow the active waveform.
 
 Editing, EQ, reverb and dynamics are assembled beneath the waveforms in one scrolling right-hand panel. Drag teal knobs vertically, use Shift-drag for fine adjustment, use the wheel/arrow keys, or type exact values. Live dry/processed preview does not alter the audio until Apply effects. Applied effects can be undone.
@@ -38,3 +38,9 @@ Some menu sounds, including newbreakboard, contain a seek table before their aud
 New public download location
 https://gab3thegr8.github.io/2K-Audio-Studio-Downloads/
 Earlier builds require a one-time manual installer upgrade to use this new update host. Your activation, settings and saved projects are retained.
+
+Standalone export from any source
+Select a sound, then choose Export RESA beside Import audio / RESA, or File > Export selected RESA (Ctrl+Shift+E). It works for IFF resources, PA sounds and standalone RESA imports, including a newly imported WAV/MP3/OGG replacement. The current replacement waveform is exported, including unapplied edits. Unedited native sounds retain their exact original data. Exporting a selected RESA does not apply replacements to the IFF or change your imported source.
+
+Getting a license
+Gabe creates a license key through his online owner approvals page. You can send him the machine ID from Studio to reserve the key for your computer; otherwise the first computer to activate it is assigned. Paste the license key he sends into Studio and click Activate. A machine ID is not a license key.
