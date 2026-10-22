@@ -1,4 +1,4 @@
-GAB3theGR8's 2K Audio Studio v0.6.3
+GAB3theGR8's 2K Audio Studio v0.6.5
 
 This version requires a license key supplied by Gabe.
 
@@ -7,7 +7,7 @@ This version requires a license key supplied by Gabe.
 3. The app checks authorization at startup and periodically while online. It can work offline for up to seven days after its last successful check, subject to license expiry.
 4. Help > Activation / license opens the activation screen again.
 
-Open your game folder or an IFF. The original waveform stays above the editable replacement. Import WAV/MP3/OGG, trim/repeat/copy/paste and use the Reverb / EQ / Effects panel. Knobs update the live dry/processed waveform overlay. Apply commits the effect as one undoable change. Fit original peaks matches the loaded original and checks native export against that reference.
+Open your game folder or an IFF. The original waveform stays above the editable replacement. Import WAV/MP3/OGG, trim/repeat/copy/paste and use the Reverb / EQ / Effects panel. Knobs update the live dry/processed waveform overlay. Apply commits the effect as one undoable change. Normalize peaks raises quiet audio and lowers loud audio to one shared -0.1 dBTP ceiling, independently of the loaded original. Native export compensates codec overshoot to stay within that ceiling.
 
 For PA music, choose PA Sounds, select a team, edit/apply replacements and Export PA team. Only edited files are exported, with native 2K .wav content and original logical filenames inside Team Name/newaudio/eventmusic. Shared clips can affect multiple teams. For IFFs, Export IFF preserves untouched resources. Test new audio in game before installation.
 
@@ -21,7 +21,7 @@ Install the Setup.exe once. Open Studio from the Start menu afterward. Studio ch
 PA catalog update
 The library still contains 5,676 native recordings. This release adds 533 team associations; 449 more recordings now have team matches, for 2,721 associated recordings total. Team matches remain candidates, and shared sounds can affect multiple teams.
 
-Studio 0.6.3 workflow
+Studio 0.6.5 workflow
 Click either waveform to activate it. Click to place its cursor, drag to select, and press Space to play/pause that waveform. Click another position during playback to seek. The original stays a reference and supports copying; destructive edits target the lower replacement waveform. Zoom and selection time fields follow the active waveform.
 
 Editing, EQ, reverb and dynamics are assembled beneath the waveforms in one scrolling right-hand panel. Drag teal knobs vertically, use Shift-drag for fine adjustment, use the wheel/arrow keys, or type exact values. Live dry/processed preview does not alter the audio until Apply effects. Applied effects can be undone.
@@ -47,3 +47,8 @@ Gabe creates a license key through his online owner approvals page. You can send
 
 Converter RESA compatibility
 Older converter-made RESA files contain an Ogg stream and different header-size fields. Edited sounds now export with a fresh native Opus header, while native indexed sounds keep rebuilt seek tables.
+
+Shared peak normalization
+Click Normalize peaks to normalize the entire replacement waveform. Every sound uses the same -0.1 dBTP target near full digital scale, with a small margin against clipping. The original or modded file peak is not the target. Linked gain keeps stereo balance and timing unchanged. The effects normalization checkbox uses the same ceiling. Silence stays silent. This matches peak levels, not perceived loudness, and does not repair distortion already present in a recording.
+
+Mono decoding now preserves sample amplitude when displaying it on both stereo workspace channels.

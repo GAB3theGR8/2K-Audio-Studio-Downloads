@@ -24,6 +24,7 @@
     "Continuous scrolling editor with no effects tabs",
     "Variable-size native RESA header and standalone resource support",
     "Visible standalone RESA export from any selected source",
-    "Legacy converter RESA edits export with a fresh native Opus header"
+    "Legacy converter RESA edits export with a fresh native Opus header",
+    "Shared true-peak normalization raises quiet audio and lowers loud audio independently of original level"
   ]
 }
