@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": [
+    "Live HTTPS activation and signed lease verification",
+    "Live refresh with per-device proof",
+    "Second machine denied",
+    "Valid cached lease works offline",
+    "Expired offline lease denied",
+    "Copied activation denied on different machine identity",
+    "Online revocation clears lease and prevents grace fallback",
+    "Local credentials are Windows DPAPI protected"
+  ],
+  "server": "https://gtg-audio-license.gab3thegr8.workers.dev",
+  "offline_grace_days": 7,
+  "machines_per_key": 1
+}

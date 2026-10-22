@@ -1,0 +1,40 @@
+GAB3theGR8's 2K Audio Studio v0.6.1
+
+This version requires a license key supplied by Gabe.
+
+1. Open the EXE and enter your key. Initial activation needs internet.
+2. Each key authorizes one Windows user on one computer. Ask Gabe to reset your activation if you move or reinstall Windows.
+3. The app checks authorization at startup and periodically while online. It can work offline for up to seven days after its last successful check, subject to license expiry.
+4. Help > Activation / license opens the activation screen again.
+
+Open your game folder or an IFF. The original waveform stays above the editable replacement. Import WAV/MP3/OGG, trim/repeat/copy/paste and use the Reverb / EQ / Effects panel. Sliders update the live dry/processed waveform overlay. Apply commits the effect as one undoable change. Fit original peaks matches the loaded original and checks native export against that reference.
+
+For PA music, choose PA Sounds, select a team, edit/apply replacements and Export PA team. Only edited files are exported, with native 2K .wav content and original logical filenames inside Team Name/newaudio/eventmusic. Shared clips can affect multiple teams. For IFFs, Export IFF preserves untouched resources. Test new audio in game before installation.
+
+Save .2kaudio projects to keep edits. If authorization ends during a session, project saving remains available. Your audio and game files are not uploaded. Activation sends a license key, device public key and hashed machine ID. Local device credentials use Windows current-user protection.
+
+Third-party notices and licenses are included. Their rights remain in force. The activation gate does not restrict replacing the bundled LGPL libraries. Project source development is private; this ZIP contains the portable app, guide and third-party notices.
+
+Automatic updates
+Install the Setup.exe once. Open Studio from the Start menu afterward. Studio checks for signed updates shortly after launch and daily while open. Use Help > Check for updates or the Updates menu at any time. Choose Update and restart to download, verify, and install. Save your project when prompted; Cancel keeps Studio open. Activation, settings and projects remain separate from the installation.
+
+PA catalog update
+The library still contains 5,676 native recordings. This release adds 533 team associations; 449 more recordings now have team matches, for 2,721 associated recordings total. Team matches remain candidates, and shared sounds can affect multiple teams.
+
+Studio 0.6.1 workflow
+Click either waveform to activate it. Click to place its cursor, drag to select, and press Space to play/pause that waveform. Click another position during playback to seek. The original stays a reference and supports copying; destructive edits target the lower replacement waveform. Zoom and selection time fields follow the active waveform.
+
+Editing, EQ, reverb and dynamics are assembled beneath the waveforms in one scrolling right-hand panel. Drag teal knobs vertically, use Shift-drag for fine adjustment, use the wheel/arrow keys, or type exact values. Live dry/processed preview does not alter the audio until Apply effects. Applied effects can be undone.
+
+Import IFF / RESA opens local IFF archives or standalone .RESA audio. Archives are scanned for RESA resources, including nested paths. Standalone sounds can be edited, saved in projects and exported directly as .RESA. Packed IFFs require a matching installed game folder for decoding. Export IFF preserves all untouched resources.
+
+Use the visible New, Open project, Save project and Save as buttons. Name a project EuroLeague or NBA. Each .2kaudio project can contain multiple IFFs, pending replacements, the current unapplied waveform, selections, reference view, effect settings and labels. Switch between IFFs using Project archives. Local IFF data is embedded; PA projects still need their matching installed game data. Older single-IFF .2kaudio projects remain readable.
+
+A project supports up to 200 archives and 1 GB of uncompressed workspace data. If the limit is reached, split the work into smaller named projects. A failed save leaves the existing saved project unchanged.
+
+Indexed RESA sounds
+Some menu sounds, including newbreakboard, contain a seek table before their audio. Studio now reads their declared audio offset and rebuilds the table when exporting an edited indexed sound. Genuine incomplete files are still rejected.
+
+New public download location
+https://gab3thegr8.github.io/2K-Audio-Studio-Downloads/
+Earlier builds require a one-time manual installer upgrade to use this new update host. Your activation, settings and saved projects are retained.

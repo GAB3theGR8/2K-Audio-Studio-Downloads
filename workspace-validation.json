@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "Both waveforms accept clicks and play from independent cursors",
+    "Space follows the active waveform",
+    "Original stays read-only and can be copied",
+    "Embedded effects rack uses teal rotary controls with exact entry",
+    "Live effects preview leaves source audio untouched",
+    "Nested RESA resources discovered inside imported IFF",
+    "Two IFFs retain pending and unapplied edits in one project",
+    "Named EuroLeague and NBA projects remain independent",
+    "Project restore preserves waveform, selection, labels and effect knobs",
+    "Legacy version-one projects remain readable"
+  ]
+}

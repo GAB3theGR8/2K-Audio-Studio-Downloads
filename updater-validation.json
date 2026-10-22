@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "Updates menu and persistent automatic-check option",
+    "Cancel preserves work and skips installer",
+    "Cancelled save skips installer",
+    "Project save completes before installer launch and editor close",
+    "New team-matched PA samples verified against installed native audio"
+  ],
+  "newly_team_matched_files": 473
+}

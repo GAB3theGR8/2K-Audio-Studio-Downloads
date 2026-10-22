@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checks": [
+    "Bundled native Opus encoder and decoder",
+    "IFF export with unchanged metadata",
+    "Qt desktop startup and background audio decode",
+    "Waveform and clipboard interaction",
+    "Bundled font and GTG icon rendering",
+    "Versioned GAB3theGR8 window title",
+    "Separate original and replacement waveforms",
+    "Bundled 5676-clip PA index and team mappings",
+    "PA native encode and edited-only team WAV export with unchanged files omitted",
+    "Independent original and edit transports and playheads",
+    "Reference-based Fit Peaks and native float encoding above full scale",
+    "Bundled EQ, compressor and convolution reverb render and native export",
+    "Effects rack controls and PA preset",
+    "Linked draggable effect sliders and exact numeric entry",
+    "Asynchronous live dry/processed waveform preview without committed edits",
+    "Signed license verification, Windows-protected cache, offline grace and expiry",
+    "Bundled authenticated updater and update controls",
+    "Embedded rotary effects rack",
+    "Multi-archive workspace save and restore",
+    "Interactive original waveform and active transport routing",
+    "Continuous scrolling editor with no effects tabs",
+    "Variable-size native RESA header and standalone resource support"
+  ]
+}

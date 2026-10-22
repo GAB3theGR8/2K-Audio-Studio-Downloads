@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "Original stock newbreakboard show/hide indexed RESAs decode",
+    "Edited indexed RESAs retain rebuilt seek tables with valid offsets/times",
+    "IFF resource export and unchanged original verification",
+    "Standalone RESA open/edit/native export",
+    "Standalone RESA project save/load",
+    "Genuinely truncated input still rejected",
+    "Editor uses one scrolling right panel without effect tabs"
+  ]
+}
