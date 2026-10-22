@@ -1,4 +1,4 @@
-GAB3theGR8's 2K Audio Studio v0.6.2
+GAB3theGR8's 2K Audio Studio v0.6.3
 
 This version requires a license key supplied by Gabe.
 
@@ -21,7 +21,7 @@ Install the Setup.exe once. Open Studio from the Start menu afterward. Studio ch
 PA catalog update
 The library still contains 5,676 native recordings. This release adds 533 team associations; 449 more recordings now have team matches, for 2,721 associated recordings total. Team matches remain candidates, and shared sounds can affect multiple teams.
 
-Studio 0.6.2 workflow
+Studio 0.6.3 workflow
 Click either waveform to activate it. Click to place its cursor, drag to select, and press Space to play/pause that waveform. Click another position during playback to seek. The original stays a reference and supports copying; destructive edits target the lower replacement waveform. Zoom and selection time fields follow the active waveform.
 
 Editing, EQ, reverb and dynamics are assembled beneath the waveforms in one scrolling right-hand panel. Drag teal knobs vertically, use Shift-drag for fine adjustment, use the wheel/arrow keys, or type exact values. Live dry/processed preview does not alter the audio until Apply effects. Applied effects can be undone.
@@ -44,3 +44,6 @@ Select a sound, then choose Export RESA beside Import audio / RESA, or File > Ex
 
 Getting a license
 Gabe creates a license key through his online owner approvals page. You can send him the machine ID from Studio to reserve the key for your computer; otherwise the first computer to activate it is assigned. Paste the license key he sends into Studio and click Activate. A machine ID is not a license key.
+
+Converter RESA compatibility
+Older converter-made RESA files contain an Ogg stream and different header-size fields. Edited sounds now export with a fresh native Opus header, while native indexed sounds keep rebuilt seek tables.

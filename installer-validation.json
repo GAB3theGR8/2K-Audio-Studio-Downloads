@@ -1,10 +1,9 @@
 {
   "passed": true,
-  "version": "0.6.2",
+  "version": "0.6.3",
   "checks": [
     "Windows installer compiled successfully",
-    "Installer product version is 0.6.2",
-    "Bundled portable executable passed packaged validation"
+    "Packaged application and converter RESA regression checks passed"
   ],
-  "note": "No installation was performed over the running user app. Installer mechanics were unchanged from the previously validated 0.6.1 release."
+  "note": "Installer mechanics unchanged. User installation was not replaced during testing."
 }

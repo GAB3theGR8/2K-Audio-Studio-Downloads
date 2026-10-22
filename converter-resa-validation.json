@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "Real converter-made RESAs decode, edit and encode as native Opus",
+    "Fresh native header replaces legacy converter fields",
+    "Original input files remain unchanged"
+  ],
+  "files_tested": [
+    "sfx-pr-sonar_01-mikebreenbang.RESA",
+    "sfx-pr-wood-break_01-chrissmoovesplash.RESA",
+    "ball-backboard-hard_01.RESA"
+  ]
+}

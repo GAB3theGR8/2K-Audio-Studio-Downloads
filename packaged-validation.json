@@ -23,6 +23,7 @@
     "Interactive original waveform and active transport routing",
     "Continuous scrolling editor with no effects tabs",
     "Variable-size native RESA header and standalone resource support",
-    "Visible standalone RESA export from any selected source"
+    "Visible standalone RESA export from any selected source",
+    "Legacy converter RESA edits export with a fresh native Opus header"
   ]
 }
