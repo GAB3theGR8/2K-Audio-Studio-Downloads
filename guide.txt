@@ -1,4 +1,4 @@
-GAB3theGR8's 2K Audio Studio v0.7.0
+GAB3theGR8's 2K Audio Studio v0.7.1
 
 This version requires a license key supplied by Gabe.
 
@@ -59,3 +59,6 @@ Choose Jukebox after setting your installed NBA 2K27 folder. The current game co
 Export tracks lets you choose one or multiple tracks. The bundle includes native audio under newaudio/jukeboxmusic or newaudio/jukeboxmusic_park, the COMPLETE music.iff with all track records and untouched resources preserved, and edited native artwork at its original shared path. Selected tracks contribute their metadata changes; unselected records remain as loaded. Artwork requires an in-game confirmation test. No installed game files are modified. Jukebox projects require Studio 0.7.0 or later; earlier projects remain readable. Stock audio and artwork are read on demand rather than bundled in the download.
 
 For a single PA clip, choose Export game files. The output is PA Export/newaudio/eventmusic/<exact filename>.wav. Existing edited-only team exports remain available.
+
+Updater 0.7.1
+Each update download uses its own folder, avoiding access-denied errors when a previous installer is still open. Temporary Windows rename locks are retried. If Windows continues to block installation, save and close Studio and run the installer from the public download page.

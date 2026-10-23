@@ -1,11 +1,14 @@
 {
   "passed": true,
+  "version": "0.7.1",
   "checks": [
-    "Updates menu and persistent automatic-check option",
-    "Cancel preserves work and skips installer",
-    "Cancelled save skips installer",
-    "Project save completes before installer launch and editor close",
-    "New team-matched PA samples verified against installed native audio"
-  ],
-  "newly_team_matched_files": 473
+    "Authenticated update manifests",
+    "Tampering and foreign URLs rejected",
+    "Same/older versions ignored",
+    "Bounded download and exact SHA-256 verification",
+    "Cancellation and incomplete download cleanup",
+    "Fresh download directories preserve existing installers",
+    "Temporary Windows rename locks retry successfully",
+    "Persistent locks give manual download instructions"
+  ]
 }
