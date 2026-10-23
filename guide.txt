@@ -1,4 +1,4 @@
-GAB3theGR8's 2K Audio Studio v0.6.5
+GAB3theGR8's 2K Audio Studio v0.7.0
 
 This version requires a license key supplied by Gabe.
 
@@ -21,7 +21,7 @@ Install the Setup.exe once. Open Studio from the Start menu afterward. Studio ch
 PA catalog update
 The library still contains 5,676 native recordings. This release adds 533 team associations; 449 more recordings now have team matches, for 2,721 associated recordings total. Team matches remain candidates, and shared sounds can affect multiple teams.
 
-Studio 0.6.5 workflow
+Studio 0.7.0 workflow
 Click either waveform to activate it. Click to place its cursor, drag to select, and press Space to play/pause that waveform. Click another position during playback to seek. The original stays a reference and supports copying; destructive edits target the lower replacement waveform. Zoom and selection time fields follow the active waveform.
 
 Editing, EQ, reverb and dynamics are assembled beneath the waveforms in one scrolling right-hand panel. Drag teal knobs vertically, use Shift-drag for fine adjustment, use the wheel/arrow keys, or type exact values. Live dry/processed preview does not alter the audio until Apply effects. Applied effects can be undone.
@@ -52,3 +52,10 @@ Shared peak normalization
 Click Normalize peaks to normalize the entire replacement waveform. Every sound uses the same -0.1 dBTP target near full digital scale, with a small margin against clipping. The original or modded file peak is not the target. Linked gain keeps stereo balance and timing unchanged. The effects normalization checkbox uses the same ceiling. Silence stays silent. This matches peak levels, not perceived loudness, and does not repair distortion already present in a recording.
 
 Mono decoding now preserves sample amplitude when displaying it on both stereo workspace channels.
+
+Jukebox music
+Choose Jukebox after setting your installed NBA 2K27 folder. The current game contains 264 main/Park audio slots and 164 metadata records. The selected track card sits left of both waveform transports. Edit its title and artist or change its cover. Importing an MP3 reads embedded title, artist and cover when available.
+
+Export tracks lets you choose one or multiple tracks. The bundle includes native audio under newaudio/jukeboxmusic or newaudio/jukeboxmusic_park, the COMPLETE music.iff with all track records and untouched resources preserved, and edited native artwork at its original shared path. Selected tracks contribute their metadata changes; unselected records remain as loaded. Artwork requires an in-game confirmation test. No installed game files are modified. Jukebox projects require Studio 0.7.0 or later; earlier projects remain readable. Stock audio and artwork are read on demand rather than bundled in the download.
+
+For a single PA clip, choose Export game files. The output is PA Export/newaudio/eventmusic/<exact filename>.wav. Existing edited-only team exports remain available.

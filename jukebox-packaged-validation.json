@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "Installed-index music bank discovery",
+    "MP3 title, artist and embedded cover import",
+    "Stock cover decode and native cover encoding",
+    "Selected-track card beside independent waveform transports",
+    "Combined multi-track audio/metadata/art export with exact game folders",
+    "Jukebox project save and restore"
+  ]
+}

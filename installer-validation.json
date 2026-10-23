@@ -1,9 +1,11 @@
 {
   "passed": true,
-  "version": "0.6.5",
   "checks": [
-    "Windows installer compiled",
-    "Packaged app and shared peak normalization checks passed"
-  ],
-  "note": "Installer mechanics unchanged; user installation not replaced during testing."
+    "Fresh per-user silent installation",
+    "Installed binary hash matches verified package",
+    "Upgrade from 0.6.0 and preserved previous executable",
+    "Existing activation cache untouched",
+    "Installer refuses while Studio mutex is held",
+    "Installed app self-test on clean Windows PATH"
+  ]
 }

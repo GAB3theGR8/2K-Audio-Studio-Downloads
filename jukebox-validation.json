@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "tracks": 264,
+  "metadata_records": 164,
+  "cover_assets": 100,
+  "checks": [
+    "Installed runtime lookup resolves both music banks despite older manifest offsets",
+    "Stock title, artist and native cover decode",
+    "MP3 title, artist and embedded picture import",
+    "Native cover encoding and decoding",
+    "Single-track audio, music.iff and art bundle with exact paths",
+    "Unselected track metadata edits excluded",
+    "Multi-track export across both banks",
+    "Jukebox project preserves labels, cover and pending audio",
+    "Selected track card displays metadata beside waveform transports"
+  ]
+}

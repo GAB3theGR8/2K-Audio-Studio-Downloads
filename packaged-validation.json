@@ -25,6 +25,7 @@
     "Variable-size native RESA header and standalone resource support",
     "Visible standalone RESA export from any selected source",
     "Legacy converter RESA edits export with a fresh native Opus header",
-    "Shared true-peak normalization raises quiet audio and lowers loud audio independently of original level"
+    "Shared true-peak normalization raises quiet audio and lowers loud audio independently of original level",
+    "Jukebox banks, track cards, MP3 tags, native artwork, combined exports and project restoration"
   ]
 }
