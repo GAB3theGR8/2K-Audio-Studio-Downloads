@@ -9,7 +9,7 @@
     "MP3 title, artist and embedded picture import",
     "Native cover encoding and decoding",
     "Single-track audio, music.iff and art bundle with exact paths",
-    "Unselected track metadata edits excluded",
+    "Complete music.iff includes all current metadata edits",
     "Multi-track export across both banks",
     "Jukebox project preserves labels, cover and pending audio",
     "Selected track card displays metadata beside waveform transports"

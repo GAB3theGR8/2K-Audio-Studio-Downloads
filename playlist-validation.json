@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    "Installed collections: 93 base / 7 additional / 100 total soundtrack songs",
+    "Add/remove buttons update membership and counts",
+    "Move down changes stored collection order",
+    "World playlist viewer reads built-in arrays and remains read-only",
+    "Personal MyPlaylist correctly identified as profile data",
+    "Playlist project save/reload and complete metadata-only export"
+  ],
+  "world_lists": {
+    "TKWORLD_PLAYLIST_GENERIC": 6,
+    "TKWORLD_PLAYLIST_STREETBALL": 30,
+    "TKWORLD_PLAYLIST_RACETRACK": 12,
+    "TKWORLD_PLAYLIST_STREETBALL_RUCKER": 22
+  }
+}

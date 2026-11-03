@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "Reorder soundtrack collection while preserving audio and identity IDs",
+    "Move existing songs between soundtrack collections and update counts",
+    "Keep season availability and total catalog size unchanged",
+    "Restore reordered membership in projects",
+    "Export complete music.iff with all current changes and untouched resources",
+    "Metadata-only export omits audio",
+    "Reject duplicate order entries, unknown songs and cross-bank changes"
+  ]
+}

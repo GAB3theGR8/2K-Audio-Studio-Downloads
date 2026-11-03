@@ -1,4 +1,4 @@
-GAB3theGR8's 2K Audio Studio v0.7.1
+GAB3theGR8's 2K Audio Studio v0.8.0
 
 This version requires a license key supplied by Gabe.
 
@@ -56,9 +56,18 @@ Mono decoding now preserves sample amplitude when displaying it on both stereo w
 Jukebox music
 Choose Jukebox after setting your installed NBA 2K27 folder. The current game contains 264 main/Park audio slots and 164 metadata records. The selected track card sits left of both waveform transports. Edit its title and artist or change its cover. Importing an MP3 reads embedded title, artist and cover when available.
 
-Export tracks lets you choose one or multiple tracks. The bundle includes native audio under newaudio/jukeboxmusic or newaudio/jukeboxmusic_park, the COMPLETE music.iff with all track records and untouched resources preserved, and edited native artwork at its original shared path. Selected tracks contribute their metadata changes; unselected records remain as loaded. Artwork requires an in-game confirmation test. No installed game files are modified. Jukebox projects require Studio 0.7.0 or later; earlier projects remain readable. Stock audio and artwork are read on demand rather than bundled in the download.
+Export tracks lets you choose one or multiple tracks. The bundle includes native audio under newaudio/jukeboxmusic or newaudio/jukeboxmusic_park, the COMPLETE music.iff with all track records and untouched resources preserved, and edited native artwork at its original shared path. The complete music.iff includes all current metadata and playlist changes, regardless of which audio files are selected. Artwork requires an in-game confirmation test. No installed game files are modified. New Jukebox projects require Studio 0.8.0 or later; earlier projects remain readable. Stock audio and artwork are read on demand rather than bundled in the download.
 
 For a single PA clip, choose Export game files. The output is PA Export/newaudio/eventmusic/<exact filename>.wav. Existing edited-only team exports remain available.
 
 Updater 0.7.1
 Each update download uses its own folder, avoiding access-denied errors when a previous installer is still open. Temporary Windows rename locks are retried. If Windows continues to block installation, save and close Studio and run the installer from the public download page.
+
+Jukebox playlists (0.8.0)
+Select a Jukebox track, then click Playlists beneath the album cover. The editor reads existing soundtrack collections and shows live song counts. Base soundtrack and Additional soundtrack collection are neutral labels for the file-based collections; their exact in-game display names still need confirmation. Choose either collection to Add / Remove existing soundtrack songs. Remove moves the song to the other collection; it does not delete its audio or remove it from All soundtrack songs. Move up / Move down changes the order within the chosen collection. The game may shuffle playback. Season Release availability fields, Bank Index and Unique Id are preserved.
+
+Export complete music.iff writes all current track metadata, collection membership/order and edited artwork, with no audio replacements. Export tracks also includes the selected audio files. Test the exported playlist changes in game before distributing. This release changes collection sizes within the existing soundtrack catalog; it does not add new audio slots or change the number of playlists in the game's menu.
+
+World Generic, Streetball, Racetrack and Rucker lists are extracted read-only from the installed executable. These are separate built-in arrays and cannot be changed through music.iff alone. Personal MyPlaylist is held in the game profile; manage it using the game's Add to MyPlaylist / Remove From MyPlaylist controls. Studio does not write executable files or player profiles.
+
+Projects save playlist membership and order. New Jukebox projects use project version 4 and require Studio 0.8.0; previous project versions remain readable.
