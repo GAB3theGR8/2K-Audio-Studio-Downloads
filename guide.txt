@@ -1,4 +1,4 @@
-GAB3theGR8's 2K Audio Studio v0.8.0
+GAB3theGR8's 2K Audio Studio v0.8.1
 
 This version requires a license key supplied by Gabe.
 
@@ -71,3 +71,6 @@ Export complete music.iff writes all current track metadata, collection membersh
 World Generic, Streetball, Racetrack and Rucker lists are extracted read-only from the installed executable. These are separate built-in arrays and cannot be changed through music.iff alone. Personal MyPlaylist is held in the game profile; manage it using the game's Add to MyPlaylist / Remove From MyPlaylist controls. Studio does not write executable files or player profiles.
 
 Projects save playlist membership and order. New Jukebox projects use project version 4 and require Studio 0.8.0; previous project versions remain readable.
+
+Update restart fix (0.8.1)
+The installer now forces a new temporary runtime when restarting Studio, including when launched by older clients. The updater also drops inherited one-file runtime state. This fixes the missing python314.dll message after updating. Projects, activation and audio stay separate from installation. The abandoned main-playlist removal experiment is not included.

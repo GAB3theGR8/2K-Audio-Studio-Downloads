@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": [
+    "Reproduced missing Python DLL from inherited deleted one-file runtime",
+    "Fresh updater environment starts independent runtime",
+    "Installer reproduction of old-client restart fails without reset",
+    "Production installer environment helper fixes old-client restart",
+    "Normal environment and parent process remain unchanged"
+  ],
+  "installer_cases": [
+    {
+      "test": "old-behavior",
+      "fresh_runtime_started": false
+    },
+    {
+      "test": "fixed-behavior",
+      "fresh_runtime_started": true
+    }
+  ]
+}
