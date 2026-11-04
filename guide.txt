@@ -1,4 +1,4 @@
-GAB3theGR8's 2K Audio Studio v0.8.1
+GAB3theGR8's 2K Audio Studio v0.8.2
 
 This version requires a license key supplied by Gabe.
 
@@ -74,3 +74,6 @@ Projects save playlist membership and order. New Jukebox projects use project ve
 
 Update restart fix (0.8.1)
 The installer now forces a new temporary runtime when restarting Studio, including when launched by older clients. The updater also drops inherited one-file runtime state. This fixes the missing python314.dll message after updating. Projects, activation and audio stay separate from installation. The abandoned main-playlist removal experiment is not included.
+
+Peak advisory (0.8.2)
+Above the recommended peak, Studio keeps the warning and offers Continue to export (or Continue to apply) and Cancel. Continue retains your chosen level and bypasses peak normalization for that encoding. Cancel leaves edits and files unchanged. Normalize peaks remains optional. Native format and invalid-sample checks remain enforced. Supported for IFF, standalone RESA, PA and Jukebox audio. Previously applied replacements do not need a second acknowledgement.

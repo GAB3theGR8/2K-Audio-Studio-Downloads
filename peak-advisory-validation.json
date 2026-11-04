@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "Real advisory dialog retains warning and Continue/Cancel",
+    "Cancel leaves pending edits and output files unchanged",
+    "Explicit acceptance exports native audio above recommended ceiling",
+    "Chosen waveform gain is not reduced on acceptance",
+    "IFF untouched resources remain identical",
+    "Standalone RESA export supports Continue and Cancel",
+    "PA and Jukebox forward explicit peak acknowledgement",
+    "Malformed audio is still rejected"
+  ]
+}

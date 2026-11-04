@@ -27,6 +27,7 @@
     "Legacy converter RESA edits export with a fresh native Opus header",
     "Shared true-peak normalization raises quiet audio and lowers loud audio independently of original level",
     "Jukebox banks, track cards, MP3 tags, native artwork, combined exports and project restoration",
-    "Soundtrack playlist membership, order, counts, project restore and complete metadata export"
+    "Soundtrack playlist membership, order, counts, project restore and complete metadata export",
+    "Explicit peak acknowledgement exports above the recommended ceiling without forced normalization"
   ]
 }
